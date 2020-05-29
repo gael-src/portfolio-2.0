@@ -1,0 +1,30 @@
+.card {
+  display: block;
+  margin: 10px;
+  background-color: thistle;
+}
+
+.img-wrapper {
+  display: block;
+  height: 250px;
+  background-size: cover;
+}
+
+.text-wrapper {
+  display: block;
+  height: 250px;
+}
+
+.text-wrapper > * {
+  display: inline-block;
+  width: 100%;
+}
+
+@media screen and (min-width: 850px) {
+  .img-wrapper {
+    width: 250px;
+  }
+  .text-wrapper {
+    width: 250px;
+  }
+}
