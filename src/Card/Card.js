@@ -11,8 +11,8 @@ class Card extends Component {
         <div className="text-wrapper">
           <h4>{this.props.title}</h4>
           <p>{this.props.description}</p>
-          <a href={this.props.repoLink}>Repo</a>
-          <a href={this.props.codeLink}>Code</a>
+          <a href={this.props.repoLink}>View Repository</a>
+          <a href={this.props.codeLink}>Visit Site</a>
         </div>
       </div>
     );
